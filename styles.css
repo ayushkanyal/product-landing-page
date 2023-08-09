@@ -7,6 +7,41 @@ img{
     height: 2.5rem;
 }
 
-ul{
+#navbar{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    padding-right:2em;
+    justify-content: space-between;
+}
+
+#navbar-elements{
     list-style: none;
+    display: flex;
+    gap:2em;
+}
+
+#navbar-elements  a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header Section */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > input{
+    padding: 4px;
+    width: 25%;
+}
+
+button{
+    margin:10px;
+    font-size:18px;
+    font-weight: 800;
+    background-color: rgb(255, 183, 0);
 }
