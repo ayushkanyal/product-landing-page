@@ -1,0 +1,12 @@
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    height: 2.5rem;
+}
+
+ul{
+    list-style: none;
+}
