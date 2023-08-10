@@ -1,32 +1,46 @@
 body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
+    margin: 0px;
 }
 
+/* Navbar Section */
+
 img{
-    height: 2.5rem;
+    height: 100%;
+    width:100%;
+    max-width:300px;
 }
 
 #navbar{
     position: sticky;
+    top: 0;
+    min-height: 75px;
+    width: 100%;
+    padding: 0px 20px;
     display: flex;
-    flex-direction: row;
-    padding-right:2em;
     justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
 }
 
 #navbar-elements{
     list-style: none;
+    width: 35%;
     display: flex;
-    gap:2em;
+    max-width: 800px;
+    gap:22%;
 }
 
 #navbar-elements  a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
 }
 
 /* Header Section */
+
+
 
 header{
     display: flex;
@@ -35,13 +49,77 @@ header{
 }
 
 header > input{
-    padding: 4px;
-    width: 25%;
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#search-button{
+    margin:10px;
+    font-size:18px;
+    font-weight: 800;
+    background-color:  #f1c40f;
+    border: none;
+    padding: 7px 7px 7px 15px;
+}
+
+/* Features Section */
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature-item{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    width: 60%;
+}
+
+.feature-item > .logo{
+    color: darkorange;
+    position: relative;
+    top: 20px;
+    width: 35px;
+}
+
+/* Video Section */
+
+#video{
+    height: 19.13rem;
+    width: 34rem;
+    margin: 40px auto;
+}
+
+/* Subscriptions Section */
+
+#subscription-plans{
+    display: flex;
+}
+
+.subscription-card{
+    border: 1px solid black;
+    text-align: center;
+    width: 14rem;
+}
+
+.plan-name{
+    margin: 0px;
+    padding: 1%;
+    background-color: gray;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button{
     margin:10px;
     font-size:18px;
-    font-weight: 800;
-    background-color: rgb(255, 183, 0);
+    background-color:  #f1c40f;
+    border: none;
+    padding: 12px 20px 10px 20px;
 }
